@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+  }
+  *, *:after, *:before{
+    box-sizing: inherit;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+// colorsAssets
+$title: #5020fd;
+$subtitle:#1a1053;
+$svg-background:#6236ff;
+$number1:#f9345e;
+$number2:#fa6400;
+$number3:#1cb142;
+$contentBgc:#e6e6e6;
+// $contentBgc:#f9fcff;
+
+$popping:'Poppins', sans-serif;
+
+body{
+    background-color: $contentBgc;
+}
+// outerSections
+.outer_container{
+    padding: 3em;
+    display: flex;
+    font-family: $popping;
+        .right_section{
+            width: 35%;
+            // border: 1px solid red;
+        }
+        .left_section{
+            width: 65%;
+            // border: 1px solid red;
+        }
+}
+
+// mainTitle
+.title{
+    font-size: 1.3em;
+    margin-right: .5em;
+    color: $title;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 1.2em;
+    color: $subtitle;
+    font-weight: bold;
+}
+.date{
+    font-size: .7em;
+    color:$subtitle;
+    margin-left: .2em;
+}
+
+// globalCards
+.global_container{
+    margin: 3em 0;
+    display: flex;
+        .global_item{
+            width: 20%;
+            // border: 1px solid red;
+            margin: 0 2em;
+            border-radius: 10px;
+            padding: .7em;
+            background-color: #fff;
+                .global_title{};
+                .global_data{}
+        }
+}

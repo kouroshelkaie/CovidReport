@@ -5,12 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="scripts/app.js" defer></script>
     <script src="scripts/fetch.js" defer></script>
     <script src="scripts/ui.js" defer></script>
     <title>Co-Report</title>
 </head>
 <body>
-    
+    <div class="outer_container">
+        <div class="left_section">
+
+            <div class="main_title">
+                <span class="title">Covid-19</span>
+                <span class="subtitle">Global Trend</span>
+                <h6 class="date"></h6>
+            </div>
+
+            <div class="global_container">
+                <div class="global_item">
+                    <p class="global_title">New Confirmed</p>
+                    <p class="global_data" id="gd-newconfirmed"></p>
+                </div>
+                <div class="global_item">
+                    <p class="global_title">New Deaths</p>
+                    <p class="global_data" id="gd-newdeaths"></p>
+                </div>
+                <div class="global_item">
+                    <p class="global_title">Total Cases</p>
+                    <p class="global_data" id="gd-totalcases"></p>
+                </div>
+                <div class="global_item">
+                    <p class="global_title">Total Death</p>
+                    <p class="global_data" id="gd-totaldeath"></p>
+                </div>
+            </div>
+        </div>
+        <div class="right_section"></div>
+    </div>
 </body>
 </html>

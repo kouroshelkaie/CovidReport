@@ -8,7 +8,7 @@ fetch("https://api.covid19api.com/summary")
     })
 })
 
-
+// get data by coutry name api (cases,death,averages)
 let country = 
 fetch("https://corona.lmao.ninja/v2/countries?yesterday&sort")
     .then(response =>{
