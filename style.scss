@@ -17,7 +17,7 @@ $svg-background:#6236ff;
 $number1:#f9345e;
 $number2:#fa6400;
 $number3:#1cb142;
-$contentBgc:#e6e6e6;
+$contentBgc:#f3f7fc;
 // $contentBgc:#f9fcff;
 
 $popping:'Poppins', sans-serif;
@@ -42,7 +42,7 @@ body{
 
 // mainTitle
 .title{
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-right: .5em;
     color: $title;
     font-weight: bold;
@@ -63,13 +63,35 @@ body{
     margin: 3em 0;
     display: flex;
         .global_item{
-            width: 20%;
-            // border: 1px solid red;
-            margin: 0 2em;
-            border-radius: 10px;
-            padding: .7em;
-            background-color: #fff;
-                .global_title{};
-                .global_data{}
+        // width: 20%;
+        text-align: center;
+        margin: 0 1em;
+        border-radius: 10px;
+        padding:1.5em;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            .global_title{
+            font-size: .8em;
+            margin-bottom: .3em;
+            font-weight: bold
+            };
+            .global_data{
+            font-size: 1.4em;
+            font-weight: bold;
+            }
+            #gd-newconfirmed{color: $number1;}
+            #gd-newdeaths{color: $number2;}
+            #gd-totalcases{color: $number3;}
+            #gd-totaldeath{color: $svg-background;}
         }
+}
+
+// bannerSection
+.banner_container{
+    border: 1px solid red;
+        .banner_img{
+        width: 12em;
+        }
+        .banner_title{}
 }

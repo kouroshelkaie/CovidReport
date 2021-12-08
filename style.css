@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #e6e6e6;
+  background-color: #f3f7fc;
 }
 
 .outer_container {
@@ -35,7 +35,7 @@ body {
 }
 
 .title {
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin-right: .5em;
   color: #5020fd;
   font-weight: bold;
@@ -61,10 +61,48 @@ body {
 }
 
 .global_container .global_item {
-  width: 20%;
-  margin: 0 2em;
+  text-align: center;
+  margin: 0 1em;
   border-radius: 10px;
-  padding: .7em;
+  padding: 1.5em;
+  cursor: pointer;
   background-color: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.global_container .global_item .global_title {
+  font-size: .8em;
+  margin-bottom: .3em;
+  font-weight: bold;
+}
+
+.global_container .global_item .global_data {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.global_container .global_item #gd-newconfirmed {
+  color: #f9345e;
+}
+
+.global_container .global_item #gd-newdeaths {
+  color: #fa6400;
+}
+
+.global_container .global_item #gd-totalcases {
+  color: #1cb142;
+}
+
+.global_container .global_item #gd-totaldeath {
+  color: #6236ff;
+}
+
+.banner_container {
+  border: 1px solid red;
+}
+
+.banner_container .banner_img {
+  width: 12em;
 }
 /*# sourceMappingURL=style.css.map */
