@@ -31,11 +31,11 @@ body{
     display: flex;
     font-family: $popping;
         .right_section{
-            width: 35%;
+            width: 30%;
             // border: 1px solid red;
         }
         .left_section{
-            width: 65%;
+            width: 70%;
             // border: 1px solid red;
         }
 }
@@ -66,15 +66,22 @@ body{
         // width: 20%;
         text-align: center;
         margin: 0 1em;
-        border-radius: 10px;
         padding:1.5em;
         cursor: pointer;
-        background-color: #fff;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+        border-radius: 15px;
+        background: linear-gradient(145deg, #eeeeee, #ffffff);
+        box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+
+        // border-radius: 10px;
+        // background-color: #fff;
+        // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
             .global_title{
             font-size: .8em;
             margin-bottom: .3em;
-            font-weight: bold
+            font-weight: bold;
+            color: #333
             };
             .global_data{
             font-size: 1.4em;
@@ -90,8 +97,8 @@ body{
 // bannerSection
 .banner_container{
     background-color: $svg-background;
+    margin:6em 0em 2em 0em;
     border-radius: 20px;
-    margin:6em 0;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         .banner_img{
             width: 20em;
@@ -102,10 +109,10 @@ body{
         .symtom_container{
             display: flex;
             justify-content: space-between;
-            padding: 0em 4em 2em 2em;
+            padding: 0em 3em 1em 2em;
             color: #e6e6e6;
                 .arrow_link{
-                font-size: 1.8em;
+                font-size: 1.5em;
                     a{
                     text-decoration: none;
                     color: #e6e6e6;
@@ -113,3 +120,50 @@ body{
                 }
         }
 }
+
+// irSection
+.iran_container{
+    border-radius: 21px;
+    background: linear-gradient(145deg, #eeeeee, #ffffff);
+    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+    padding: 1em;
+        .iran_title{
+            display: flex;
+            justify-content: center;
+            color: #333;
+            .iran_img{
+            width: 1em; height: 1em;
+            border-radius: 9px;
+            margin: .2em .5em;
+            }
+        }
+        .today_container{
+            display: flex;
+            justify-content: space-around;
+            margin: 1em 0;
+                .today_cases,
+                .today_deaths{
+                text-align: center;
+                cursor: pointer;
+                    .iran_case_title{
+                        font-weight: bold;
+                        color: #333;
+                    }
+                    .iran_case_data{
+                        font-weight: bold;
+                        color: $number2;
+                    }
+                    .iran_death_title{
+                        font-weight: bold;
+                        color: #333;
+                    }
+                    .iran_death_data{
+                        font-weight: bold;
+                        color: $number1;
+                    }
+                }
+        }
+}
+
+
+

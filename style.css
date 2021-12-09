@@ -27,11 +27,11 @@ body {
 }
 
 .outer_container .right_section {
-  width: 35%;
+  width: 30%;
 }
 
 .outer_container .left_section {
-  width: 65%;
+  width: 70%;
 }
 
 .title {
@@ -63,18 +63,19 @@ body {
 .global_container .global_item {
   text-align: center;
   margin: 0 1em;
-  border-radius: 10px;
   padding: 1.5em;
   cursor: pointer;
-  background-color: #fff;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  -webkit-box-shadow: 9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+          box-shadow: 9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
 }
 
 .global_container .global_item .global_title {
   font-size: .8em;
   margin-bottom: .3em;
   font-weight: bold;
+  color: #333;
 }
 
 .global_container .global_item .global_data {
@@ -100,8 +101,8 @@ body {
 
 .banner_container {
   background-color: #6236ff;
+  margin: 6em 0em 2em 0em;
   border-radius: 20px;
-  margin: 6em 0;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -119,16 +120,80 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0em 4em 2em 2em;
+  padding: 0em 3em 1em 2em;
   color: #e6e6e6;
 }
 
 .banner_container .symtom_container .arrow_link {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .banner_container .symtom_container .arrow_link a {
   text-decoration: none;
   color: #e6e6e6;
+}
+
+.iran_container {
+  border-radius: 21px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  -webkit-box-shadow: 9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+          box-shadow: 9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+  padding: 1em;
+}
+
+.iran_container .iran_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #333;
+}
+
+.iran_container .iran_title .iran_img {
+  width: 1em;
+  height: 1em;
+  border-radius: 9px;
+  margin: .2em .5em;
+}
+
+.iran_container .today_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1em 0;
+}
+
+.iran_container .today_container .today_cases,
+.iran_container .today_container .today_deaths {
+  text-align: center;
+  cursor: pointer;
+}
+
+.iran_container .today_container .today_cases .iran_case_title,
+.iran_container .today_container .today_deaths .iran_case_title {
+  font-weight: bold;
+  color: #333;
+}
+
+.iran_container .today_container .today_cases .iran_case_data,
+.iran_container .today_container .today_deaths .iran_case_data {
+  font-weight: bold;
+  color: #fa6400;
+}
+
+.iran_container .today_container .today_cases .iran_death_title,
+.iran_container .today_container .today_deaths .iran_death_title {
+  font-weight: bold;
+  color: #333;
+}
+
+.iran_container .today_container .today_cases .iran_death_data,
+.iran_container .today_container .today_deaths .iran_death_data {
+  font-weight: bold;
+  color: #f9345e;
 }
 /*# sourceMappingURL=style.css.map */
