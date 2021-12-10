@@ -61,6 +61,8 @@ body{
 
 // globalCards
 .global_container{
+    position: sticky;
+    top: 2%;
     margin: 3em 0;
     display: flex;
         .global_item{
@@ -180,20 +182,28 @@ body{
             margin: 1em 0;
         }
 }
-
+// main_map section
 .main_container{
+    display: flex;
+    justify-content: space-between;
     width: 93%;
     padding: 2em;
-    display: flex;
     border-radius: 25px;
     background: linear-gradient(145deg, #eeeeee, #ffffff);
     box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
         .map_container{
-        width: 100%;
-            iframe{
-            border-radius: 10px;
-            background: linear-gradient(145deg, #eeeeee, #ffffff);
-            box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;        
-            }
+        width: 65%;
         }
+}
+
+
+
+// footerChartSection
+.footer_chart_container{
+    width: 93%;
+    margin: 2em 0;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #eeeeee, #ffffff);
+    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+    padding: 2em;
 }
