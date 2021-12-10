@@ -101,7 +101,7 @@ body {
 
 .banner_container {
   background-color: #6236ff;
-  margin: 6em 0em 2em 0em;
+  margin: 4em 0em 2em 0em;
   border-radius: 20px;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -195,5 +195,20 @@ body {
 .iran_container .today_container .today_deaths .iran_death_data {
   font-weight: bold;
   color: #f9345e;
+}
+
+.chart_container {
+  margin: 2em 0;
+  padding: 2em;
+  border-radius: 25px;
+  text-align: center;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  -webkit-box-shadow: 9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+          box-shadow: 9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+}
+
+.chart_container h4 {
+  color: #333;
+  margin: 1em 0;
 }
 /*# sourceMappingURL=style.css.map */
