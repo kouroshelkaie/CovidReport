@@ -17,6 +17,7 @@ $svg-background:#6236ff;
 $number1:#f9345e;
 $number2:#fa6400;
 $number3:#1cb142;
+$number4:#4AABED;
 $contentBgc:#f3f7fc;
 // $contentBgc:#f9fcff;
 
@@ -27,7 +28,7 @@ body{
 }
 // outerSections
 .outer_container{
-    padding: 5em;
+    padding: 3em;
     display: flex;
     font-family: $popping;
         .right_section{
@@ -65,8 +66,8 @@ body{
         .global_item{
         // width: 20%;
         text-align: center;
-        margin: 0 1em;
-        padding:1.5em;
+        margin: 0 1.2em;
+        padding:1.5em 1.7em;
         cursor: pointer;
 
         border-radius: 15px;
@@ -91,13 +92,14 @@ body{
             #gd-newdeaths{color: $number2;}
             #gd-totalcases{color: $number3;}
             #gd-totaldeath{color: $svg-background;}
+            #gd-totalrecovered{color: $number4}
         }
 }
 
 // bannerSection
 .banner_container{
     background-color: $svg-background;
-    margin:4em 0em 2em 0em;
+    margin:6em 0em 2em 0em;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         .banner_img{
@@ -179,3 +181,19 @@ body{
         }
 }
 
+.main_container{
+    width: 93%;
+    padding: 2em;
+    display: flex;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #eeeeee, #ffffff);
+    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+        .map_container{
+        width: 100%;
+            iframe{
+            border-radius: 10px;
+            background: linear-gradient(145deg, #eeeeee, #ffffff);
+            box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;        
+            }
+        }
+}

@@ -11,6 +11,7 @@ irCase =             document.querySelector(".iran_case_data")
 
 // the function that get global data and put them on dom 
 const getGlobalData = (globalData)=>{
+    console.log(globalData)
     newConfirmed.innerHTML = globalData.NewConfirmed.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     newDeath.innerHTML =     globalData.NewDeaths.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     totalCases.innerHTML =   globalData.TotalConfirmed.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
