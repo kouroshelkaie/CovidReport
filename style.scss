@@ -1,225 +1,304 @@
-html{
-    box-sizing: border-box;
-  }
-  *, *:after, *:before{
-    box-sizing: inherit;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 
 // colorsAssets
 $title: #5020fd;
-$subtitle:#1a1053;
-$svg-background:#6236ff;
-$number1:#f9345e;
-$number2:#fa6400;
-$number3:#1cb142;
-$number4:#4AABED;
-$contentBgc:#f3f7fc;
+$subtitle: #1a1053;
+$svg-background: #6236ff;
+$number1: #f9345e;
+$number2: #fa6400;
+$number3: #1cb142;
+$number4: #4aabed;
+$contentBgc: #f3f7fc;
 // $contentBgc:#f9fcff;
 
-$popping:'Poppins', sans-serif;
+$popping: "Poppins", sans-serif;
 
-body{
-    background-color: $contentBgc;
+body {
+  background-color: $contentBgc;
 }
 // outerSections
-.outer_container{
-    padding: 3em;
-    display: flex;
-    font-family: $popping;
-        .right_section{
-            width: 30%;
-            // border: 1px solid red;
-        }
-        .left_section{
-            width: 70%;
-            // border: 1px solid red;
-        }
+.outer_container {
+  padding: 3em;
+  display: flex;
+  font-family: $popping;
+  .right_section {
+    width: 30%;
+    // border: 1px solid red;
+  }
+  .left_section {
+    width: 70%;
+    // border: 1px solid red;
+  }
 }
 
 // mainTitle
-.title{
-    font-size: 1.4em;
-    margin-right: .5em;
-    color: $title;
-    font-weight: bold;
+.title {
+  font-size: 1.4em;
+  margin-right: 0.5em;
+  color: $title;
+  font-weight: bold;
 }
-.subtitle{
-    font-size: 1.2em;
-    color: $subtitle;
-    font-weight: bold;
+.subtitle {
+  font-size: 1.2em;
+  color: $subtitle;
+  font-weight: bold;
 }
-.date{
-    font-size: .7em;
-    color:$subtitle;
-    margin-left: .2em;
+.date {
+  font-size: 0.7em;
+  color: $subtitle;
+  margin-left: 0.2em;
 }
 
 // globalCards
-.global_container{
-    margin: 3em 0;
-    display: flex;
-        .global_item{
-        // width: 20%;
-        text-align: center;
-        margin: 0 1.2em;
-        padding:1.5em 1.7em;
-        cursor: pointer;
+.global_container {
+  margin: 3em 0;
+  display: flex;
+  .global_item {
+    // width: 20%;
+    text-align: center;
+    margin: 0 1.2em;
+    padding: 1.5em 1.7em;
+    cursor: pointer;
 
-        border-radius: 15px;
-        background: linear-gradient(145deg, #eeeeee, #ffffff);
-        box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #eeeeee, #ffffff);
+    box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
 
-        // border-radius: 10px;
-        // background-color: #fff;
-        // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    // border-radius: 10px;
+    // background-color: #fff;
+    // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
-            .global_title{
-            font-size: .8em;
-            margin-bottom: .3em;
-            font-weight: bold;
-            color: #333
-            };
-            .global_data{
-            font-size: 1.4em;
-            font-weight: bold;
-            }
-            #gd-newconfirmed{color: $number1;}
-            #gd-newdeaths{color: $number2;}
-            #gd-totalcases{color: $number3;}
-            #gd-totaldeath{color: $svg-background;}
-            #gd-totalrecovered{color: $number4}
-        }
+    .global_title {
+      font-size: 0.8em;
+      margin-bottom: 0.3em;
+      font-weight: bold;
+      color: #333;
+    }
+    .global_data {
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+    #gd-newconfirmed {
+      color: $number1;
+    }
+    #gd-newdeaths {
+      color: $number2;
+    }
+    #gd-totalcases {
+      color: $number3;
+    }
+    #gd-totaldeath {
+      color: $svg-background;
+    }
+    #gd-totalrecovered {
+      color: $number4;
+    }
+  }
 }
 
 // bannerSection
-.banner_container{
-    background-color: $svg-background;
-    margin:6em 0em 2em 0em;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        .banner_img{
-            width: 20em;
-            margin-top: -5em;
-            margin-left: 2em;
-            // transform: scaleX(-1);
-        }
-        .symtom_container{
-            display: flex;
-            justify-content: space-between;
-            padding: 0em 3em 1em 2em;
-            color: #e6e6e6;
-                .arrow_link{
-                font-size: 1.5em;
-                    a{
-                    text-decoration: none;
-                    color: #e6e6e6;
-                    }
-                }
-        }
+.banner_container {
+  background-color: $svg-background;
+  margin: 6em 0em 2em 0em;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  .banner_img {
+    width: 20em;
+    margin-top: -5em;
+    margin-left: 2em;
+    // transform: scaleX(-1);
+  }
+  .symtom_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 3em 1em 2em;
+    color: #e6e6e6;
+    .arrow_link {
+      font-size: 1.5em;
+      a {
+        text-decoration: none;
+        color: #e6e6e6;
+      }
+    }
+  }
 }
 
 // irSection
-.iran_container{
-    border-radius: 21px;
-    background: linear-gradient(145deg, #eeeeee, #ffffff);
-    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
-    padding: 1em;
-        .iran_title{
-            display: flex;
-            justify-content: center;
-            color: #333;
-            .iran_img{
-            width: 1em; height: 1em;
-            border-radius: 9px;
-            margin: .2em .5em;
-            }
-        }
-        .today_container{
-            display: flex;
-            justify-content: space-around;
-            margin: 1em 0;
-                .today_cases,
-                .today_deaths{
-                text-align: center;
-                cursor: pointer;
-                    .iran_case_title{
-                        font-weight: bold;
-                        color: #333;
-                    }
-                    .iran_case_data{
-                        font-weight: bold;
-                        color: $number2;
-                    }
-                    .iran_death_title{
-                        font-weight: bold;
-                        color: #333;
-                    }
-                    .iran_death_data{
-                        font-weight: bold;
-                        color: $number1;
-                    }
-                }
-        }
+.iran_container {
+  border-radius: 21px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  padding: 1em;
+  .iran_title {
+    display: flex;
+    justify-content: center;
+    color: #333;
+    .iran_img {
+      width: 1em;
+      height: 1em;
+      border-radius: 9px;
+      margin: 0.2em 0.5em;
+    }
+  }
+  .today_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+    .today_cases,
+    .today_deaths {
+      text-align: center;
+      cursor: pointer;
+      .iran_case_title {
+        font-weight: bold;
+        color: #333;
+      }
+      .iran_case_data {
+        font-weight: bold;
+        color: $number2;
+      }
+      .iran_death_title {
+        font-weight: bold;
+        color: #333;
+      }
+      .iran_death_data {
+        font-weight: bold;
+        color: $number1;
+      }
+    }
+  }
 }
 
 // ChartSection
-.chart_container{
-    margin: 2em 0;
-    padding: 2em;
-    border-radius: 25px;
-    text-align: center;
-    background: linear-gradient(145deg, #eeeeee, #ffffff);
-    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
-        h4{
-            color: #333;
-            margin: 1em 0;
-        }
+.chart_container {
+  margin: 2em 0;
+  padding: 2em;
+  border-radius: 25px;
+  text-align: center;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  h4 {
+    color: #333;
+    margin: 1em 0;
+  }
 }
 // main_map section
-.main_container{
-    display: flex;
-    justify-content: space-between;
-    width: 93%;
-    padding: 2em;
-    border-radius: 25px;
-    background: linear-gradient(145deg, #eeeeee, #ffffff);
-    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
-        .map_container{
-        width: 65%;
-        }
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  padding: 2em;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  .map_container {
+    width: 70%;
+  }
+  .list_container {
+    width: 30%;
+    // border: 1px solid red;
+    overflow-y: scroll;
+    height: 63vh;
+    padding-right: 1em;
+      #search_input{
+		width: 100%;
+		padding:.7em 2em;
+    border-radius: 20px;
+		font-family: $popping;
+		color: #333;
+    background-color: #e6e6e6;
+      }
+	  #search_input:focus{outline: none;}
+
+    .list_item{
+      display: flex;
+	    padding: .7em;
+			img{
+				width: 1.5em;
+				border-radius: 50%;
+				margin: 0 .5em;
+			}
+			.list_country_name{
+				margin: 0 .5em;
+				font-size: .9em;
+				color: #333;
+				font-weight: bold;
+			}
+			.list_country_death{
+				// margin: 0 .5em;
+				font-size: .9em;
+				color: rgb(105, 105, 105);
+			}
+    }
+  }
 }
 
 // footerChartSection
-.footer_chart_container{
-    width: 93%;
-    margin: 2em 0;
-    border-radius: 25px;
-    background: linear-gradient(145deg, #eeeeee, #ffffff);
-    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
-    padding: 2em;
+.footer_chart_container {
+  width: 93%;
+  margin: 2em 0;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  padding: 2em;
 }
 
 // newsSection
-.news_container{
-    border-radius: 25px;
-    background: linear-gradient(145deg, #eeeeee, #ffffff);
-    box-shadow:  9px 9px 24px #cccccc,-9px -9px 24px #ffffff;
+.news_container {
+  border-radius: 25px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  padding: 2em;
+  .news_title_container {
     display: flex;
     justify-content: center;
-    padding: 2em;
-        .live{
-            background-color: red;
-            padding:0em .8em;
-            border-radius: 25em;
-            color: #fff;
-        }
-        .update{
-            color: #333;
-        }
- 
+    margin-bottom: 1em;
+    .live {
+      background-color: red;
+      padding: 0em 0.8em;
+      border-radius: 25em;
+      color: #fff;
+      text-align: center;
+      margin: 0 0.5em;
+    }
+    .update {
+      color: #333;
+      text-align: center;
+    }
+  }
+
+  .news_content_container {
+    display: flex;
+    justify-content: space-between;
+    .news_img {
+      border-radius: 8px;
+      width: 6em;
+    }
+    .news_content {
+      padding: 0.5em 1em;
+    }
+    #news_title {
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #333;
+      margin: 2em 0;
+    }
+    #news_text {
+      text-decoration: none;
+      font-size: 0.9em;
+      color: rgb(87, 86, 86);
+    }
+  }
 }
