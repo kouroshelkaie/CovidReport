@@ -39,6 +39,7 @@ const onDom = (data)=>{
 // the function that get data by country name and put them on dom 
 const getCountryData = (countryData)=>{    
     // put country(iran) data on dom
+    console.log(countryData)
     irFlag.setAttribute('src',countryData[95].countryInfo.flag);
     irDeath.innerHTML = countryData[95].todayDeaths
     irCase.innerHTML = countryData[95].todayCases

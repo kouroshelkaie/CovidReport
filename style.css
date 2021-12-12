@@ -56,7 +56,7 @@ body {
 }
 
 .global_container {
-  margin: 3em 0;
+  margin: 2em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,7 +115,7 @@ body {
 
 .banner_container .banner_img {
   width: 20em;
-  margin-top: -5em;
+  margin-top: -6em;
   margin-left: 2em;
 }
 
@@ -205,7 +205,7 @@ body {
 
 .chart_container {
   margin: 2em 0;
-  padding: 2em;
+  padding: 3em;
   border-radius: 25px;
   text-align: center;
   background: linear-gradient(145deg, #eeeeee, #ffffff);
@@ -246,6 +246,9 @@ body {
 
 .main_container .list_container #search_input {
   width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
   padding: .7em 2em;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
@@ -266,6 +269,7 @@ body {
 
 .main_container .list_container .list_item img {
   width: 1.5em;
+  height: 1.5em;
   border-radius: 50%;
   margin: 0 .5em;
 }
@@ -297,7 +301,7 @@ body {
   background: linear-gradient(145deg, #eeeeee, #ffffff);
   -webkit-box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
           box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
-  padding: 2em;
+  padding: 1em;
 }
 
 .news_container .news_title_container {
@@ -307,7 +311,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 .news_container .news_title_container .live {
@@ -336,6 +340,7 @@ body {
 .news_container .news_content_container .news_img {
   border-radius: 8px;
   width: 6em;
+  height: 6em;
 }
 
 .news_container .news_content_container .news_content {
@@ -354,5 +359,18 @@ body {
   text-decoration: none;
   font-size: 0.9em;
   color: #575656;
+}
+
+.ranking_container {
+  border-radius: 25px;
+  background: linear-gradient(145deg, #eeeeee, #ffffff);
+  -webkit-box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+          box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  margin: 2em 0em;
+  padding: 1.5em;
+}
+
+.ranking_container iframe {
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
