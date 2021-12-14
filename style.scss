@@ -53,7 +53,12 @@ body {
     .left_section{width: 73%;}
   }
 }
-
+// mediaQuery1000
+@media(max-width:1000px) {
+  .outer_container{
+    padding:1.5em
+  }
+}
 // mainTitle
 .title {
   font-size: 1.4em;
@@ -170,6 +175,16 @@ body {
     }
   }
 }
+// mediaQuery1030
+@media(max-width:1030px) {
+  .global_container{
+    .global_item{
+      margin: 0em .4em;
+      padding: 1em;
+    }
+  }
+}
+
 
 // bannerSection
 .banner_container {
@@ -249,7 +264,7 @@ body {
     }
   }
 }
-
+// mediaQuery1115
 @media(max-width:1115px) {
   .banner_container{
     .banner_img{
@@ -258,12 +273,23 @@ body {
   }
 }
 
+// mediaQuery1030
+@media(max-width:1030px) {
+  .banner_container{
+    .banner_img{
+      width: 10em;
+      margin-top: -3em;
+    }
+  }
+}
+
+
 // irSection
 .iran_container {
   border-radius: 21px;
   background: linear-gradient(145deg, #eeeeee, #ffffff);
   box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
-  padding: 1em;
+  padding: 1em 1em .3em 1em;
   .iran_title {
     display: flex;
     justify-content: center;
@@ -290,6 +316,7 @@ body {
       .iran_case_data {
         font-weight: bold;
         color: $number2;
+        margin-top: .7em;
       }
       .iran_death_title {
         font-weight: bold;
@@ -298,6 +325,7 @@ body {
       .iran_death_data {
         font-weight: bold;
         color: $number1;
+        margin-top: .7em;
       }
     }
   }
@@ -352,7 +380,13 @@ body {
     padding: 1.2em;
   }
 }
-
+// mediaQuery1030
+@media(max-width:1030px) {
+  .chart_container{
+    padding: 1em;
+    margin: 1.5em 0em;
+  }
+}
 // main_map section
 .main_container {
   display: flex;
@@ -575,7 +609,14 @@ body {
     }
   }
 }
-
+// mediaQuery1030
+@media(max-width:1030px) {
+  .news_container{
+    .news_title_container{
+      font-size: .8em;
+    }
+  }
+}
 
 // rankingSection
 .ranking_container {
