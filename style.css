@@ -180,6 +180,18 @@ body {
   }
 }
 
+@media (max-width: 950px) {
+  .global_container .global_item {
+    padding: 1em .9em;
+  }
+  .global_container .global_item .global_data {
+    font-size: 1em;
+  }
+  .global_container .global_item .global_title {
+    font-size: .5em;
+  }
+}
+
 .banner_container {
   width: 100%;
   background-color: #6236ff;
@@ -267,9 +279,18 @@ body {
 }
 
 @media (max-width: 1030px) {
+  .banner_container {
+    margin: 4em 0em 2em 0em;
+  }
   .banner_container .banner_img {
     width: 10em;
     margin-top: -3em;
+  }
+}
+
+@media (max-width: 950px) {
+  .banner_container .symtom_container {
+    padding: 1em 2em 1em 1em;
   }
 }
 
@@ -351,6 +372,12 @@ body {
   }
 }
 
+@media (max-width: 950px) {
+  .iran_container {
+    font-size: .7em;
+  }
+}
+
 .chart_container {
   margin: 2em 0;
   padding: 3em;
@@ -391,6 +418,15 @@ body {
   .chart_container {
     padding: 1em;
     margin: 1.5em 0em;
+  }
+}
+
+@media (max-width: 900px) {
+  .chart_container {
+    padding: .8em;
+  }
+  .chart_container h4 {
+    font-size: .6em;
   }
 }
 
@@ -520,6 +556,15 @@ body {
   }
 }
 
+@media (max-width: 950px) {
+  .main_container .list_container .list_item .list_country_name {
+    font-size: .6em;
+  }
+  .main_container .list_container .list_item .list_country_death {
+    font-size: .6em;
+  }
+}
+
 .footer_chart_container iframe {
   width: 93%;
   height: 630px;
@@ -638,6 +683,16 @@ body {
 @media (max-width: 1030px) {
   .news_container .news_title_container {
     font-size: .8em;
+  }
+}
+
+@media (max-width: 930px) {
+  .news_container .news_content #news_title {
+    font-size: .6em;
+  }
+  .news_container .news_content #news_text {
+    letter-spacing: .1px;
+    font-size: .4em;
   }
 }
 

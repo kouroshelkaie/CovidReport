@@ -184,7 +184,20 @@ body {
     }
   }
 }
-
+// mediaQuery950
+@media(max-width:950px) {
+  .global_container{
+    .global_item{
+      padding: 1em .9em;
+        .global_data{
+          font-size:1em
+        }
+        .global_title{
+          font-size: .5em;
+        }
+    }
+  }
+}
 
 // bannerSection
 .banner_container {
@@ -276,13 +289,21 @@ body {
 // mediaQuery1030
 @media(max-width:1030px) {
   .banner_container{
+    margin: 4em 0em 2em 0em;
     .banner_img{
       width: 10em;
       margin-top: -3em;
     }
   }
 }
-
+// mediaQuery950
+@media(max-width:950px) {
+  .banner_container{
+    .symtom_container{
+      padding: 1em 2em 1em 1em;
+    }
+  }
+}
 
 // irSection
 .iran_container {
@@ -343,7 +364,12 @@ body {
     font-size: .8em;
   }
 }
-
+// mediaQuery950
+@media(max-width:950px) {
+  .iran_container{
+    font-size: .7em;
+  }
+}
 // ChartSection
 .chart_container {
   margin: 2em 0;
@@ -385,6 +411,15 @@ body {
   .chart_container{
     padding: 1em;
     margin: 1.5em 0em;
+  }
+}
+// mediaQuery900
+@media(max-width:900px) {
+  .chart_container{
+    padding: .8em;
+     h4{
+       font-size: .6em;
+     }
   }
 }
 // main_map section
@@ -494,6 +529,22 @@ body {
     }
   }
 }
+
+// media Querie 950
+@media(max-width:950px) {
+  .main_container{
+    .list_container{
+      .list_item{
+        .list_country_name{
+         font-size: .6em;
+        }
+        .list_country_death{
+          font-size: .6em;
+        }
+      }
+    }
+  }
+  }
 
 // footerChartSection
 .footer_chart_container {
@@ -617,7 +668,20 @@ body {
     }
   }
 }
-
+// mediaQuery930
+@media(max-width:930px) {
+  .news_container{
+    .news_content{
+      #news_title{
+        font-size: .6em;
+      }
+      #news_text{
+        letter-spacing: .1px;
+        font-size: .4em;
+      }
+    }
+  }
+}
 // rankingSection
 .ranking_container {
   margin: 2em 0em;
