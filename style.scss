@@ -59,6 +59,24 @@ body {
     padding:1.5em
   }
 }
+// 768 BreakPoint
+@media(max-width:768px) {
+  .outer_container{
+    padding: 2em 1.5em;
+    display: block;
+    .right_section{
+      width: 100%;
+    }
+    .left_section{
+      width: 100%;
+        .main_container{
+          width: 100%;
+        }
+    }
+  }
+}
+
+
 // mainTitle
 .title {
   font-size: 1.4em;
@@ -207,6 +225,15 @@ body {
     .global_item{
       width: 20%;
     }
+  }
+}
+// mediaQuery768
+@media(max-width:768px) {
+  .global_container{
+    justify-content: space-around;
+      #recov{
+        display: block;
+      }
   }
 }
 
@@ -627,6 +654,14 @@ body {
   .footer_chart_container{
     iframe{
       width: 95%;
+    }
+  }
+}
+// mediaQuery768
+@media(max-width:768px) {
+  .footer_chart_container{
+    iframe{
+      width: 100%;
     }
   }
 }
