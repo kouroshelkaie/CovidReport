@@ -66,6 +66,7 @@ body {
     display: block;
     .right_section{
       width: 100%;
+      padding: 0em 1em;
     }
     .left_section{
       width: 100%;
@@ -94,7 +95,11 @@ body {
   color: $subtitle;
   margin-left: 0.2em;
 }
-
+@media(max-width:768px) {
+  .main_title{
+    margin-left: 2em;
+  }
+}
 // globalCards
 .global_container {
   margin: 2em 0;
@@ -369,6 +374,34 @@ body {
     }
   }
 }
+
+// mediaQuery768
+@media(max-width:768px) {
+  .banner_container{
+    margin: 7em 0em 2em 0em;
+    .banner_img{
+      width: 20em;
+      margin-top: -5em;
+      margin-left: 25%;
+    }
+    .symtom_container{
+      padding: 1em 2em 2em 2em;
+      .symtom_text{
+        h3{
+          font-size: 3em;
+        }
+        p{
+          font-size: 1.2em;
+        }
+      }
+      .arrow_link{
+        font-size: 2em;
+        margin: 1em 1em 0em 0em;
+      }
+    }
+  }
+}
+
 // irSection
 .iran_container {
   border-radius: 21px;
@@ -441,6 +474,14 @@ body {
   }
 }
 
+// mediaQuery768
+@media(max-width:768px) {
+  .iran_container{
+    font-size: 1.1em;
+    padding: 1em 2em .5em 2em;
+  }
+}
+
 // ChartSection
 .chart_container {
   margin: 2em 0;
@@ -493,6 +534,17 @@ body {
      }
   }
 }
+
+// mediaQuery768
+@media(max-width:768px) {
+  .chart_container{
+    padding: 4em;
+      h4{
+        font-size: 1em;
+      }
+  }
+}
+
 // main_map section
 .main_container {
   display: flex;
@@ -795,14 +847,92 @@ body {
     }
   }
 }
+// mediadQuery768
+@media(max-width:768px) {
+  .news_container{
+    .news_title_container{
+      .live{
+        font-size: 1.2em                                                                                                                                                                                                                                                                                                                                                             em;
+      }
+      .update{
+        font-size: 1.2em                                                                                                                                                                                                                                                                                                                                                           em;
+      }
+    }
+    .news_content_container{
+      justify-content:center;
+      .news_img{
+        width: 6em;
+        height: 6em;
+        margin-top: -2em;
+        margin-right: 1em;
+      }
+      .news_content{
+        #news_title{
+          font-size: 1em;
+        }
+        #news_text{
+          display: block;
+          font-size:1em ;
+        }
+      }
+    }
+  }
+}
 
 // rankingSection
 .ranking_container {
   margin: 2em 0em;
   iframe {
+    height: 15em;
     box-shadow: -1px -1px 1px #e6e6e6;
     border-radius: 25px 5px 5px 25px;
     background: linear-gradient(145deg, #eeeeee, #ffffff);
     box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
+  }
+}
+@media(max-width:1390px){
+  .ranking_container{
+    iframe{
+      height: 20em;
+    }
+  }
+}
+@media(max-width:1250px){
+  .ranking_container{
+    iframe{
+      height: 25em;
+    }
+  }
+}
+
+@media(max-width:1200px){
+  .ranking_container{
+    iframe{
+      height: 30em;
+    }
+  }
+}
+
+@media(max-width:950px){
+  .ranking_container{
+    iframe{
+      height: 35em;
+    }
+  }
+}
+
+@media(max-width:900px){
+  .ranking_container{
+    iframe{
+      height: 20em;
+    }
+  }
+}
+
+@media(max-width:768px) {
+  .ranking_container{
+    iframe{
+      height: 30em;
+    }
   }
 }
