@@ -192,6 +192,15 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .global_container #recov {
+    display: none;
+  }
+  .global_container .global_item {
+    width: 20%;
+  }
+}
+
 .banner_container {
   width: 100%;
   background-color: #6236ff;
@@ -294,6 +303,21 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .banner_container .symtom_container .symtom_text p {
+    font-size: .7em;
+  }
+}
+
+@media (max-width: 780px) {
+  .banner_container .symtom_container .symtom_text h4 {
+    font-size: .7em;
+  }
+  .banner_container .symtom_container .symtom_text p {
+    font-size: .6em;
+  }
+}
+
 .iran_container {
   border-radius: 21px;
   background: linear-gradient(145deg, #eeeeee, #ffffff);
@@ -375,6 +399,12 @@ body {
 @media (max-width: 950px) {
   .iran_container {
     font-size: .7em;
+  }
+}
+
+@media (max-width: 780px) {
+  .iran_container {
+    font-size: .6em;
   }
 }
 
@@ -565,6 +595,20 @@ body {
   }
 }
 
+@media (max-width: 780px) {
+  .main_container .list_container .list_item img {
+    width: 1.1em;
+    height: 1.1em;
+    margin: 0 .2em;
+  }
+  .main_container .list_container .list_item .list_country_name {
+    font-size: .5em;
+  }
+  .main_container .list_container .list_item .list_country_death {
+    font-size: .5em;
+  }
+}
+
 .footer_chart_container iframe {
   width: 93%;
   height: 630px;
@@ -686,13 +730,25 @@ body {
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 960px) {
   .news_container .news_content #news_title {
     font-size: .6em;
   }
   .news_container .news_content #news_text {
     letter-spacing: .1px;
     font-size: .4em;
+  }
+}
+
+@media (max-width: 780px) {
+  .news_container {
+    padding: .7em;
+  }
+  .news_container .news_content #news_title {
+    font-size: .5em;
+  }
+  .news_container .news_content #news_text {
+    display: none;
   }
 }
 
