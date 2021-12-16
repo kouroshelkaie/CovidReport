@@ -77,10 +77,10 @@ body {
 
 @media (max-width: 600px) {
   .outer_container {
-    padding: 2em .5em;
+    padding: 2em 0.5em;
   }
   .outer_container .right_section {
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
 }
 
@@ -161,66 +161,66 @@ body {
 
 @media (max-width: 1390px) {
   .global_container .global_item {
-    margin: 0em .9em;
+    margin: 0em 0.9em;
     padding: 1.4em 1.6em;
   }
   .global_container .global_item .global_data {
     font-size: 1.3em;
   }
   .global_container .global_item .global_title {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 @media (max-width: 1300px) {
   .global_container .global_item {
-    margin: 0em .7em;
+    margin: 0em 0.7em;
     padding: 1em 1.4em;
   }
   .global_container .global_item .global_data {
     font-size: 1.3em;
   }
   .global_container .global_item .global_title {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 @media (max-width: 1210px) {
   .global_container .global_item {
-    margin: 0em .6em;
+    margin: 0em 0.6em;
     padding: 1em 1.4em;
   }
   .global_container .global_item .global_data {
     font-size: 1.1em;
   }
   .global_container .global_item .global_title {
-    font-size: .7em;
+    font-size: 0.7em;
   }
 }
 
 @media (max-width: 1115px) {
   .global_container .global_item {
-    margin: 0em .5em;
+    margin: 0em 0.5em;
     padding: 1em 1.2em;
   }
 }
 
 @media (max-width: 1030px) {
   .global_container .global_item {
-    margin: 0em .4em;
+    margin: 0em 0.4em;
     padding: 1em;
   }
 }
 
 @media (max-width: 950px) {
   .global_container .global_item {
-    padding: 1em .9em;
+    padding: 1em 0.9em;
   }
   .global_container .global_item .global_data {
     font-size: 1em;
   }
   .global_container .global_item .global_title {
-    font-size: .5em;
+    font-size: 0.5em;
   }
 }
 
@@ -249,7 +249,7 @@ body {
     margin: 0em;
   }
   .global_container .global_item .global_title {
-    font-size: .6em;
+    font-size: 0.6em;
   }
   .global_container #recov {
     display: none;
@@ -258,16 +258,16 @@ body {
 
 @media (max-width: 550px) {
   .global_container .global_item {
-    padding: 1.2em .5em;
+    padding: 1.2em 0.5em;
   }
 }
 
 @media (max-width: 500px) {
   .global_container .global_item .global_data {
-    font-size: .9em;
+    font-size: 0.9em;
   }
   .global_container .global_item .global_title {
-    font-size: .5em;
+    font-size: 0.5em;
   }
 }
 
@@ -278,13 +278,13 @@ body {
   }
   .global_container .global_item {
     width: 48%;
-    margin: .5em 0em;
+    margin: 0.5em 0em;
   }
   .global_container .global_item .global_data {
     font-size: 1.2em;
   }
   .global_container .global_item .global_title {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -340,7 +340,7 @@ body {
     color: #e6e6e6;
   }
   .banner_container .symtom_container .symtom_text {
-    font-size: .9em;
+    font-size: 0.9em;
   }
   .banner_container .symtom_container .arrow_link {
     font-size: 1.3em;
@@ -361,10 +361,10 @@ body {
     font-size: 1em;
   }
   .banner_container .symtom_container .symtom_text p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .banner_container .symtom_container .arrow_link {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 }
 
@@ -392,16 +392,16 @@ body {
 
 @media (max-width: 800px) {
   .banner_container .symtom_container .symtom_text p {
-    font-size: .7em;
+    font-size: 0.7em;
   }
 }
 
 @media (max-width: 780px) {
   .banner_container .symtom_container .symtom_text h4 {
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .banner_container .symtom_container .symtom_text p {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
@@ -455,7 +455,7 @@ body {
     font-size: 1.5em;
   }
   .banner_container .symtom_container .symtom_text p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -476,7 +476,7 @@ body {
     font-size: 1.2em;
   }
   .banner_container .symtom_container .symtom_text p {
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .banner_container .symtom_container .arrow_link {
     font-size: 1em;
@@ -498,7 +498,7 @@ body {
   background: linear-gradient(145deg, #eeeeee, #ffffff);
   -webkit-box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
           box-shadow: 9px 9px 24px #cccccc, -9px -9px 24px #ffffff;
-  padding: 1em 1em .3em 1em;
+  padding: 1em 1em 0.3em 1em;
 }
 
 .iran_container .iran_title {
@@ -543,7 +543,7 @@ body {
 .iran_container .today_container .today_deaths .iran_case_data {
   font-weight: bold;
   color: #fa6400;
-  margin-top: .7em;
+  margin-top: 0.7em;
 }
 
 .iran_container .today_container .today_cases .iran_death_title,
@@ -556,43 +556,43 @@ body {
 .iran_container .today_container .today_deaths .iran_death_data {
   font-weight: bold;
   color: #f9345e;
-  margin-top: .7em;
+  margin-top: 0.7em;
 }
 
 @media (max-width: 1300px) {
   .iran_container {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 }
 
 @media (max-width: 1115px) {
   .iran_container {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 @media (max-width: 950px) {
   .iran_container {
-    font-size: .7em;
+    font-size: 0.7em;
   }
 }
 
 @media (max-width: 780px) {
   .iran_container {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
 @media (max-width: 768px) {
   .iran_container {
     font-size: 1.1em;
-    padding: 1em 2em .5em 2em;
+    padding: 1em 2em 0.5em 2em;
   }
 }
 
 @media (max-width: 450px) {
   .iran_container {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 }
 
@@ -622,7 +622,7 @@ body {
     padding: 1.5em;
   }
   .chart_container h4 {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -641,10 +641,10 @@ body {
 
 @media (max-width: 900px) {
   .chart_container {
-    padding: .8em;
+    padding: 0.8em;
   }
   .chart_container h4 {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
@@ -743,7 +743,7 @@ body {
 
 @media (max-width: 1390px) {
   .main_container .list_container .list_item .list_country_name {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -764,43 +764,43 @@ body {
     width: 25%;
   }
   .main_container .list_container #search_input {
-    padding: .5em 1.5em;
+    padding: 0.5em 1.5em;
   }
   .main_container .list_container #search_input::-webkit-input-placeholder {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .main_container .list_container #search_input:-ms-input-placeholder {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .main_container .list_container #search_input::-ms-input-placeholder {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .main_container .list_container #search_input::placeholder {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .main_container .list_container .list_item {
-    padding: .5em;
+    padding: 0.5em;
   }
   .main_container .list_container .list_item img {
     width: 1.3em;
     height: 1.3em;
-    margin: 0 .3em;
+    margin: 0 0.3em;
   }
   .main_container .list_container .list_item .list_country_name {
-    margin: 0 .3em;
-    font-size: .7em;
+    margin: 0 0.3em;
+    font-size: 0.7em;
   }
   .main_container .list_container .list_item .list_country_death {
-    font-size: .7em;
+    font-size: 0.7em;
   }
 }
 
 @media (max-width: 950px) {
   .main_container .list_container .list_item .list_country_name {
-    font-size: .6em;
+    font-size: 0.6em;
   }
   .main_container .list_container .list_item .list_country_death {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
@@ -808,13 +808,13 @@ body {
   .main_container .list_container .list_item img {
     width: 1.1em;
     height: 1.1em;
-    margin: 0 .2em;
+    margin: 0 0.2em;
   }
   .main_container .list_container .list_item .list_country_name {
-    font-size: .5em;
+    font-size: 0.5em;
   }
   .main_container .list_container .list_item .list_country_death {
-    font-size: .5em;
+    font-size: 0.5em;
   }
 }
 
@@ -826,7 +826,7 @@ body {
     width: 100%;
   }
   .main_container .list_container .list_item {
-    margin: .6em 0;
+    margin: 0.6em 0;
   }
   .main_container .list_container .list_item img {
     width: 2em;
@@ -848,16 +848,16 @@ body {
 
 @media (max-width: 600px) {
   .main_container {
-    padding: 1.2em .5em;
+    padding: 1.2em 0.5em;
   }
 }
 
 @media (max-width: 450px) {
   .main_container .list_container .list_item .list_country_name {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .main_container .list_container .list_item .list_country_death {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -973,10 +973,10 @@ body {
 
 @media (max-width: 1250px) {
   .news_container {
-    padding: .5em;
+    padding: 0.5em;
   }
   .news_container .news_content_container #news_text {
-    font-size: .5em;
+    font-size: 0.5em;
   }
 }
 
@@ -990,26 +990,26 @@ body {
 
 @media (max-width: 1030px) {
   .news_container .news_title_container {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 @media (max-width: 960px) {
   .news_container .news_content #news_title {
-    font-size: .6em;
+    font-size: 0.6em;
   }
   .news_container .news_content #news_text {
-    letter-spacing: .1px;
-    font-size: .4em;
+    letter-spacing: 0.1px;
+    font-size: 0.4em;
   }
 }
 
 @media (max-width: 780px) {
   .news_container {
-    padding: .7em;
+    padding: 0.7em;
   }
   .news_container .news_content #news_title {
-    font-size: .5em;
+    font-size: 0.5em;
   }
   .news_container .news_content #news_text {
     display: none;
@@ -1018,10 +1018,10 @@ body {
 
 @media (max-width: 768px) {
   .news_container .news_title_container .live {
-    font-size: 1.2em                                                                                                                                                                                                                                                                                                                                                             em;
+    font-size: 1.2em em;
   }
   .news_container .news_title_container .update {
-    font-size: 1.2em                                                                                                                                                                                                                                                                                                                                                           em;
+    font-size: 1.2em em;
   }
   .news_container .news_content_container {
     -webkit-box-pack: center;
@@ -1050,10 +1050,10 @@ body {
     margin-top: 0em;
   }
   .news_container .news_content_container .news_content #news_title {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .news_container .news_content_container .news_content #news_text {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -1064,10 +1064,10 @@ body {
     margin-top: 0em;
   }
   .news_container .news_content_container .news_content #news_title {
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .news_container .news_content_container .news_content #news_text {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
