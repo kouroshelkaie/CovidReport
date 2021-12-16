@@ -76,6 +76,15 @@ body {
     }
   }
 }
+// mediaQuery600
+@media(max-width:600px) {
+  .outer_container{
+    padding: 2em .5em;
+      .right_section{
+        padding: 0 .5em;
+      }
+  }
+}
 
 
 // mainTitle
@@ -239,6 +248,54 @@ body {
       #recov{
         display: block;
       }
+  }
+}
+// mediaQuery600
+@media(max-width:600px) {
+  .global_container{
+    .global_item{
+      padding: 1.2em 1em;
+      margin: 0em;
+        .global_title{font-size: .6em;}
+    }
+    #recov{
+      display: none;
+    }
+  }
+}
+// mediaQuery550
+@media(max-width:550px) {
+  .global_container{
+    .global_item{
+      padding: 1.2em .5em;
+    }
+  }
+}
+// mediaQuery500
+@media(max-width:500px) {
+  .global_container{
+    .global_item{
+      .global_data{
+        font-size: .9em;
+      }
+      .global_title{
+        font-size: .5em;
+      }
+    }
+  }
+}
+
+// mediaQuery450
+@media(max-width:450px) {
+  .global_container{
+    .global_item{
+      .global_data{
+        font-size: .8em;
+      }
+      .global_title{
+        font-size: .5em;
+      }
+    }
   }
 }
 
@@ -420,6 +477,41 @@ body {
       }
   }
 }
+// mediaQuery550
+@media(max-width:550px) {
+  .banner_container{
+    .banner_img{
+      width: 16em;
+    }
+  }
+}
+// mediaQuery500
+@media(max-width:500px) {
+  .banner_container{
+    .symtom_container{
+      .symtom_text{
+        h3{
+          font-size: 1.5em;
+        }
+        p{
+          font-size: .8em;
+        }
+      }
+    }
+  }
+}
+
+// mediaQuery450
+@media(max-width:450px) {
+  .banner_container{
+    .symtom_container{
+      padding: 1em 2em 1em 1em;
+    }
+    .banner_img{
+      width: 15em;
+    }
+  }
+}
 
 // irSection
 .iran_container {
@@ -500,6 +592,12 @@ body {
     padding: 1em 2em .5em 2em;
   }
 }
+// mediaQuery450
+@media(max-width:450px) {
+  .iran_container{
+    font-size: .9em;
+  }
+}
 
 // ChartSection
 .chart_container {
@@ -561,6 +659,12 @@ body {
       h4{
         font-size: 1em;
       }
+  }
+}
+// mediaQuery500
+@media(max-width:500px) {
+  .chart_container{
+    padding: 2em;
   }
 }
 
@@ -735,6 +839,27 @@ body {
     }
   }
 }
+// mediaQuery600
+@media(max-width:600px) {
+  .main_container{
+    padding: 1.2em .5em;
+  }
+}
+// mediaQuery450
+@media(max-width:450px) {
+  .main_container{
+    .list_container{
+      .list_item{
+        .list_country_name{
+          font-size: .9em;
+        }
+        .list_country_death{
+          font-size: .9em;
+        }
+      }
+    }
+  }
+}
 
 // footerChartSection
 .footer_chart_container {
@@ -764,6 +889,15 @@ body {
     }
   }
 }
+// mediQuery500
+@media(max-width:500px) {
+  .footer_chart_container{
+      iframe{
+        height: 500px;
+      }
+  }
+}
+
 
 // newsSection
 .news_container {
@@ -921,6 +1055,26 @@ body {
           display: block;
           font-size:1em ;
         }
+      }
+    }
+  }
+}
+// mediaQuery500
+@media(max-width:500px) {
+  .news_container{
+    .news_content_container{
+      .news_img{
+        width: 4em;
+        height: 4em;
+        margin-top: 0em;
+      }
+      .news_content{
+          #news_title{
+            font-size: .8em;
+          }
+          #news_text{
+            font-size: .8em;
+          }
       }
     }
   }

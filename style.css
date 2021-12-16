@@ -75,6 +75,15 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .outer_container {
+    padding: 2em .5em;
+  }
+  .outer_container .right_section {
+    padding: 0 .5em;
+  }
+}
+
 .title {
   font-size: 1.4em;
   margin-right: 0.5em;
@@ -234,6 +243,43 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .global_container .global_item {
+    padding: 1.2em 1em;
+    margin: 0em;
+  }
+  .global_container .global_item .global_title {
+    font-size: .6em;
+  }
+  .global_container #recov {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .global_container .global_item {
+    padding: 1.2em .5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .global_container .global_item .global_data {
+    font-size: .9em;
+  }
+  .global_container .global_item .global_title {
+    font-size: .5em;
+  }
+}
+
+@media (max-width: 450px) {
+  .global_container .global_item .global_data {
+    font-size: .8em;
+  }
+  .global_container .global_item .global_title {
+    font-size: .5em;
+  }
+}
+
 .banner_container {
   width: 100%;
   background-color: #6236ff;
@@ -390,6 +436,30 @@ body {
   }
 }
 
+@media (max-width: 550px) {
+  .banner_container .banner_img {
+    width: 16em;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner_container .symtom_container .symtom_text h3 {
+    font-size: 1.5em;
+  }
+  .banner_container .symtom_container .symtom_text p {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner_container .symtom_container {
+    padding: 1em 2em 1em 1em;
+  }
+  .banner_container .banner_img {
+    width: 15em;
+  }
+}
+
 .iran_container {
   border-radius: 21px;
   background: linear-gradient(145deg, #eeeeee, #ffffff);
@@ -487,6 +557,12 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .iran_container {
+    font-size: .9em;
+  }
+}
+
 .chart_container {
   margin: 2em 0;
   padding: 3em;
@@ -545,6 +621,12 @@ body {
   }
   .chart_container h4 {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  .chart_container {
+    padding: 2em;
   }
 }
 
@@ -725,6 +807,21 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .main_container {
+    padding: 1.2em .5em;
+  }
+}
+
+@media (max-width: 450px) {
+  .main_container .list_container .list_item .list_country_name {
+    font-size: .9em;
+  }
+  .main_container .list_container .list_item .list_country_death {
+    font-size: .9em;
+  }
+}
+
 .footer_chart_container iframe {
   width: 93%;
   height: 630px;
@@ -745,6 +842,12 @@ body {
 @media (max-width: 768px) {
   .footer_chart_container iframe {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer_chart_container iframe {
+    height: 500px;
   }
 }
 
@@ -898,6 +1001,20 @@ body {
   .news_container .news_content_container .news_content #news_text {
     display: block;
     font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  .news_container .news_content_container .news_img {
+    width: 4em;
+    height: 4em;
+    margin-top: 0em;
+  }
+  .news_container .news_content_container .news_content #news_title {
+    font-size: .8em;
+  }
+  .news_container .news_content_container .news_content #news_text {
+    font-size: .8em;
   }
 }
 
