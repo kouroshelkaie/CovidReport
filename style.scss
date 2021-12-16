@@ -286,14 +286,17 @@ body {
 }
 
 // mediaQuery450
-@media(max-width:450px) {
+@media(max-width:500px) {
   .global_container{
+    flex-wrap: wrap;
     .global_item{
+      width: 48%;
+      margin: .5em 0em;
       .global_data{
-        font-size: .8em;
+        font-size: 1.2em;
       }
       .global_title{
-        font-size: .5em;
+        font-size: .8em;
       }
     }
   }
@@ -513,6 +516,36 @@ body {
   }
 }
 
+// mediaQuery400
+@media(max-width:400px) {
+  .banner_container{
+    .symtom_container{
+      padding: 1em 2em 1em 1em;
+        .symtom_text{
+          h3{
+            font-size: 1.2em;
+          }
+          p{
+            font-size: .7em;
+          }
+        }
+        .arrow_link{
+          font-size: 1em;
+        }
+    }
+    .banner_img{
+      width: 12em;
+    }
+  }
+}
+@media(max-width:350px) {
+  .banner_container{
+    .banner_img{
+      width: 10em;
+      margin-top: -4em;
+    }
+  }
+}
 // irSection
 .iran_container {
   border-radius: 21px;
@@ -667,6 +700,12 @@ body {
     padding: 2em;
   }
 }
+// mediaQuery400
+@media(max-width:400px) {
+  .chart_container{
+    padding: 1em;
+  }
+}
 
 // main_map section
 .main_container {
@@ -818,7 +857,7 @@ body {
     .list_container{
       width: 100%;
         .list_item{
-          margin: .8em 0;
+          margin: .6em 0;
             img{
               width: 2em;
               height: 2em;
@@ -851,10 +890,10 @@ body {
     .list_container{
       .list_item{
         .list_country_name{
-          font-size: .9em;
+          font-size: .8em;
         }
         .list_country_death{
-          font-size: .9em;
+          font-size: .8em;
         }
       }
     }
@@ -1074,6 +1113,27 @@ body {
           }
           #news_text{
             font-size: .8em;
+          }
+      }
+    }
+  }
+}
+
+// mediaQuery400
+@media(max-width:400px) {
+  .news_container{
+    .news_content_container{
+      .news_img{
+        width: 4em;
+        height: 4em;
+        margin-top: 0em;
+      }
+      .news_content{
+          #news_title{
+            font-size: .7em;
+          }
+          #news_text{
+            font-size: .6em;
           }
       }
     }
