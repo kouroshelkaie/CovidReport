@@ -401,6 +401,25 @@ body {
     }
   }
 }
+// mediaQuery650
+@media(max-width:650px) {
+  .banner_container{
+    margin: 5em 0em 2em 0em;
+      .banner_img{
+        width: 18em;
+      }
+      .symtom_container{
+        .symtom_text{
+          h3{
+            font-size: 2em;
+          }
+          p{
+            font-size: 1em;
+          }
+        }
+      }
+  }
+}
 
 // irSection
 .iran_container {
@@ -685,6 +704,34 @@ body {
           font-size: .5em;
         }
       }
+    }
+  }
+}
+// mediaQuery 650
+@media(max-width:650px) {
+  .main_container{
+    display: block;
+    .list_container{
+      width: 100%;
+        .list_item{
+          margin: .8em 0;
+            img{
+              width: 2em;
+              height: 2em;
+              margin: 0 1em;    
+            }
+            .list_country_name{
+              font-size: 1em;
+              margin-right: 1em;
+            }
+            .list_country_death{
+              font-size: 1em;
+            }
+        }
+    }
+    .map_container{
+      width: 100%;
+      margin-top: 2em;
     }
   }
 }

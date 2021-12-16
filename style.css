@@ -375,6 +375,21 @@ body {
   }
 }
 
+@media (max-width: 650px) {
+  .banner_container {
+    margin: 5em 0em 2em 0em;
+  }
+  .banner_container .banner_img {
+    width: 18em;
+  }
+  .banner_container .symtom_container .symtom_text h3 {
+    font-size: 2em;
+  }
+  .banner_container .symtom_container .symtom_text p {
+    font-size: 1em;
+  }
+}
+
 .iran_container {
   border-radius: 21px;
   background: linear-gradient(145deg, #eeeeee, #ffffff);
@@ -679,6 +694,34 @@ body {
   }
   .main_container .list_container .list_item .list_country_death {
     font-size: .5em;
+  }
+}
+
+@media (max-width: 650px) {
+  .main_container {
+    display: block;
+  }
+  .main_container .list_container {
+    width: 100%;
+  }
+  .main_container .list_container .list_item {
+    margin: .8em 0;
+  }
+  .main_container .list_container .list_item img {
+    width: 2em;
+    height: 2em;
+    margin: 0 1em;
+  }
+  .main_container .list_container .list_item .list_country_name {
+    font-size: 1em;
+    margin-right: 1em;
+  }
+  .main_container .list_container .list_item .list_country_death {
+    font-size: 1em;
+  }
+  .main_container .map_container {
+    width: 100%;
+    margin-top: 2em;
   }
 }
 
